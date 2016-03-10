@@ -10,7 +10,7 @@ in your html:
 in your javascript:
 $(".another-element").hide();
 
-double quotes were used instead of single quotes.
+another-element and my-element need to be the same name.
 
 What's wrong with this code:
 in your html:
@@ -18,7 +18,7 @@ in your html:
 in your javascript:
 $("#hideMe").hide();
 
-double quotes were used instead of single quotes. Hide me should also be written as hide-me.
+hideMe should be my-element.
 
 If you have a FOLDER named lib and a FILE named app.js, why won't this link to your javascript work?
 <script src="app.js"></script>
