@@ -2,7 +2,7 @@
 
 What do jQuery selectors start with?
 
-[[answer]]
+similar to CSS selectors, except wrapped in  $(‘ ’);
 
 What's the problem with this code
 in your html:
@@ -10,7 +10,7 @@ in your html:
 in your javascript:
 $(".another-element").hide();
 
-[[answer]]
+double quotes were used instead of single quotes.
 
 What's wrong with this code:
 in your html:
@@ -18,13 +18,13 @@ in your html:
 in your javascript:
 $("#hideMe").hide();
 
-[[answer]]
+double quotes were used instead of single quotes. Hide me should also be written as hide-me.
 
 If you have a FOLDER named lib and a FILE named app.js, why won't this link to your javascript work?
 <script src="app.js"></script>
 
-[[answer]]
+It also needs to link to the folder "app.js" is in.
 
 What can you tell me about this: <input type="text"/> what is it? what will we be using them for?
 
-[[answer]]
+It allows the user to type their name and be counted in the counter. It is what is plugged in to the variable.
